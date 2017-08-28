@@ -21,6 +21,7 @@ inadyn_SOURCES  += gnutls.c
 endif
 endif
 
+inadyn_SOURCES  += ../jsmn/jsmn.c
 ## Plugins are currently built-in, and built from this directory instead
 ## of where they reside.  They should be built by plugins/Makefile.am
 ## and be installed into $libdir/inadyn/plugins/ as *.so files
@@ -36,4 +37,4 @@ inadyn_SOURCES  += ../plugins/common.c		../plugins/changeip.c	\
 		   ../plugins/sitelutions.c				\
 		   ../plugins/tunnelbroker.c	../plugins/tzo.c	\
 		   ../plugins/zoneedit.c	../plugins/zerigo.c	\
-		   ../plugins/dnspod.c
+		   ../plugins/dnspod.c		../plugins/yandex.c
